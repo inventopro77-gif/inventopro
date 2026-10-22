@@ -15,6 +15,8 @@ llamar a los modelos de tu Ollama local.
 
 - [Ollama](https://ollama.com) corriendo (`ollama serve`) y al menos un modelo: `ollama pull llama3.2`
 - [uv](https://docs.astral.sh/uv/) — instala las dependencias (`mcp`, `httpx`) solo, en la primera ejecución.
+  - macOS / Linux: `curl -LsSf https://astral.sh/uv/install.sh | sh`
+  - Windows (PowerShell): `powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"`
 
 ## Uso con Claude Code
 

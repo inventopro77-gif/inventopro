@@ -12,6 +12,11 @@ responder preguntas sobre él.
 [uv](https://docs.astral.sh/uv/getting-started/installation/). Las dependencias se instalan
 solas la primera vez.
 
+- macOS / Linux: `curl -LsSf https://astral.sh/uv/install.sh | sh`
+- Windows (PowerShell): `powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"`
+
+Después cierra y vuelve a abrir la terminal para que `uv` quede disponible.
+
 ## Claude Desktop
 
 1. Abre **Ajustes → Desarrollador → Editar configuración**. Se abre `claude_desktop_config.json`:
