@@ -2,11 +2,23 @@
   "mcpServers": {
     "ollama": {
       "command": "uv",
-      "args": ["run", "--script", "ollama_mcp/server.py"],
+      "args": [
+        "run",
+        "--script",
+        "ollama_mcp/server.py"
+      ],
       "env": {
         "OLLAMA_HOST": "${OLLAMA_HOST:-http://localhost:11434}",
         "OLLAMA_DEFAULT_MODEL": "${OLLAMA_DEFAULT_MODEL:-llama3.2}"
       }
+    },
+    "youtube": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--script",
+        "youtube_mcp/server.py"
+      ]
     }
   }
 }
